@@ -1,0 +1,29 @@
+
+	@import "assets/stylesheets/bootstrap.scss";
+	@import url("https://fonts.googleapis.com/css?family =Josefin+Sans");
+	@import "_variables.scss";
+	//mixin
+	@import "mixin.scss";
+	@import "_base.scss";
+
+		@media (max-width:1000px){
+		.one  {
+			h1{
+			font-size:80px;	
+			}
+			h2{
+			font-size:25px;	
+			}
+		}
+		.two{
+			.text{
+				h2{
+					font-size:40px;
+				}
+				p{
+					font-size:20px;
+				}
+			}
+		}
+		
+		}
